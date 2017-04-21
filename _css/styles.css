@@ -10,11 +10,12 @@ Table of Contents
 6. Media Queries (mobile and tablet styles)
 
 Color Palette:
-#c9eb86
-#
-#
-#
-#
+#296135: Dark Green
+#c9eb86: Light Green
+#819485: Grayish Green
+#80E095: Seafoam Green
+#333: Dark Gray
+
 =====================================================
 ====================================================*/
 
@@ -89,9 +90,17 @@ body {
     font-size: 12px;
     letter-spacing: 5px;
 }
-.navbar-nav  li a:hover {
-    color: #296135 !important;
+.navbar ul{
+  margin-top: 50px;
 }
+.navbar ul li:hover{
+  background: #296135;
+}
+.navbar-nav  li a:hover {
+    color: #fff !important;
+}
+
+/********* Mobile navbar *********/
 
 @media (max-width: 1100px) {
     .navbar-header {
@@ -132,6 +141,18 @@ body {
 /*========================
 3. Link Styles
 =========================*/
+a{
+  color: #000;
+}
+a:hover{
+  color: #fff;
+}
+
+ul.nav.navbar-nav.navbar-right li a{
+  color: #000;
+}
+
+
 
 /*========================
 4. Page specific styles
@@ -139,13 +160,6 @@ body {
 
 img.portrait{
   display: inline-block;
-}
-.logo-container{
-  height: 150px;
-  width: 150px;
-  background: #555;
-  margin: 0 5px 5px auto;
-  text-align: center;
 }
 
 /*========================
