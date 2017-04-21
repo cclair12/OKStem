@@ -26,7 +26,7 @@ Color Palette:
 =========================*/
 
 body {
-     font: 20px 'Roboto', sans-serif;
+     font: 20px 'Lato', sans-serif;
      line-height: 1.8;
      color: #000;
  }
@@ -57,7 +57,7 @@ body {
  }
 
  .section-title,.banner-title{
-     font: 2em 'Overpass Mono', sans-serif;
+     font: 2em 'Carrois Gothic SC', sans-serif;
      margin-bottom: 45px;
  }
  .page-banner{
