@@ -13,7 +13,7 @@ Color Palette:
 #296135: Dark Green
 #c9eb86: Light Green
 #819485: Grayish Green
-#80E095: Seafoam Green
+#80e095: Seafoam Green
 #333: Dark Gray
 
 =====================================================
@@ -26,7 +26,7 @@ Color Palette:
 =========================*/
 
 body {
-     font: 20px 'Lato', sans-serif;
+     font: 24px 'Lato', sans-serif;
      line-height: 1.8;
      color: #000;
  }
@@ -47,6 +47,7 @@ body {
  }
  .color-bg {
      background-color: #c9eb86;
+     color: #fff;
  }
  .white-bg {
      background-color: #fff;
