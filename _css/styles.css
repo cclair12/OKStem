@@ -41,7 +41,10 @@ body {
    text-align: left;
  }
  .home-banner{
-     background: url('../_images/sample_bg.JPG');
+     background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url('../_images/sample_bg.JPG');
      background-size: cover;
      color: #fff;
      height: 500px;
