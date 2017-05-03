@@ -27,6 +27,7 @@ Color Palette:
 
 body {
      font: 24px 'Lato', sans-serif;
+     font-weight: 400;
      line-height: 1.8;
      color: #000;
  }
@@ -42,8 +43,8 @@ body {
  }
  .home-banner{
      background: linear-gradient(
-                     rgba(20,20,20, .5),
-                     rgba(20,20,20, .5)),
+                     rgba(20,20,20, .4),
+                     rgba(20,20,20, .4)),
                      url('../_images/sample_bg.JPG');
      background-size: cover;
      color: #fff;
@@ -62,7 +63,8 @@ body {
  }
 
  .section-title,.banner-title{
-     font: 2em 'Carrois Gothic SC', sans-serif;
+     font-size: 50px;
+     font-weight: 700;
      margin-bottom: 45px;
  }
  .page-banner{
