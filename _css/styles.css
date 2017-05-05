@@ -60,15 +60,12 @@ h1,h2,h3{
  .white-bg {
      background-color: #fff;
  }
+.gray-bg {
+    background-color: #e5e5e5;
+}
  .color-bg,.white-bg{
    padding-top: 70px;
    padding-bottom: 70px;
- }
-
- .section-title,.banner-title{
-     font-size: 50px;
-     font-weight: 700;
-     margin-bottom: 45px;
  }
  .page-banner{
    background: #333;
