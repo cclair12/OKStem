@@ -15,6 +15,7 @@ Color Palette:
 #819485: Grayish Green
 #80e095: Seafoam Green
 #333: Dark Gray
+#296: Neutral green
 
 =====================================================
 ====================================================*/
@@ -79,7 +80,7 @@ h2{
      height: 500px;
  }
  .color-bg {
-     background-color: #296135;
+     background-color: #296;
      color: #fff;
  }
  .white-bg {
@@ -120,7 +121,7 @@ hr.small-black {
     max-width: 200px;
     margin-bottom: 2em;
     border-width: 4px;
-    border-color: #80e095;
+    border-color: #296;
 }
 img{
   display: block;
@@ -262,7 +263,7 @@ figcaption.company{
     color: #000;
 }
 .heading-green{
-    color: #80e095;
+    color: #296;
     font-weight: 700;
 }
 
