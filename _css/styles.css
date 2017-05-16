@@ -31,11 +31,40 @@ body {
      color: #000;
  }
  p {
-  font-size: 24px;
+  font-size: 1.2em;
+}
+@media (min-width: 768px) { 
+    p{
+    font-size: 1.4em;
+}
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    p{
+    font-size: 1.7em;
+}
 }
 h1,h2,h3{
     text-transform: uppercase;
     font-weight: 700;
+}
+h2{
+    font-size: 2em;
+}
+.white-bg h2,.gray-bg h2{
+    color: #555;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    h2{
+    font-size: 3em;
+}
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    h2{
+    font-size: 3.5em;
+}
 }
  p.container{
    text-align: left;
@@ -55,11 +84,12 @@ h1,h2,h3{
  }
  .white-bg {
      background-color: #fff;
+     color: #555;
  }
 .gray-bg {
     background-color: #e5e5e5;
 }
- .color-bg,.white-bg{
+ .color-bg,.white-bg,.gray-bg{
    padding-top: 70px;
    padding-bottom: 70px;
  }
@@ -82,15 +112,15 @@ h1,h2,h3{
 }
 hr.small {
     max-width: 200px;
-    margin: 0 auto;
+    margin-bottom: 2em;
     border-width: 4px;
     border-color: #fff;
 }
 hr.small-black {
     max-width: 200px;
-    margin: 0 auto;
+    margin-bottom: 2em;
     border-width: 4px;
-    border-color: #000;
+    border-color: #80e095;
 }
 img{
   display: block;
@@ -169,7 +199,7 @@ a:hover{
 }
 
 ul.nav.navbar-nav.navbar-right li a{
-  color: #000;
+  color: #555;
 }
 
 
@@ -191,10 +221,29 @@ header .container {
   padding-top: 150px;
 }
 header .banner-text{
-    font-size: 4em;
+    font-size: 2.8em;
 }
 header .subheading{
     font-size: 2em;
+    color: #c9eb86;
+}
+@media (min-width: 768px) { 
+    header .banner-text{
+    font-size: 3.5em;
+    }
+    header .subheading{
+    font-size: 2.7em;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    header .banner-text{
+    font-size: 4em;
+    }
+    header .subheading{
+    font-size: 3.2em;
+}
 }
 figure{
     max-width: 300px;
@@ -211,6 +260,10 @@ figcaption{
 }
 figcaption.company{
     color: #000;
+}
+.heading-green{
+    color: #80e095;
+    font-weight: 700;
 }
 
 /*========================
@@ -230,24 +283,3 @@ footer .footer-below {
 footer .footer-col {
   margin-bottom: 50px;
 }
-
-/*========================
-6. Media Queries
-=========================*/
-
-/*mobile styles*/
-
-@media only screen and (max-width:480px) {
-
-
-
-
-
-@media only screen and (min-width: 481px) and (max-width: 861px) {
-
-
-
-
-/*tablet styles*/
-
-@media only screen and (min-width:861px) {
