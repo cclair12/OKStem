@@ -33,10 +33,6 @@ body {
  p {
   font-size: 24px;
 }
- /*.container-fluid {
-     padding-top: 70px;
-     padding-bottom: 70px;
- }*/
 h1,h2,h3{
     text-transform: uppercase;
     font-weight: 700;
@@ -54,7 +50,7 @@ h1,h2,h3{
      height: 500px;
  }
  .color-bg {
-     background-color: #c9eb86;
+     background-color: #296135;
      color: #fff;
  }
  .white-bg {
@@ -96,6 +92,10 @@ hr.small-black {
     border-width: 4px;
     border-color: #000;
 }
+img{
+  display: block;
+}
+
 /*========================
 2. Nav Styles
 =========================*/
@@ -196,8 +196,21 @@ header .banner-text{
 header .subheading{
     font-size: 2em;
 }
+figure{
+    max-width: 300px;
+    margin: 0 auto;
+}
 img.portrait{
-  display: inline-block;
+  display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+figcaption{
+    width: 100%;
+    background-color: #fff;
+}
+figcaption.company{
+    color: #000;
 }
 
 /*========================
