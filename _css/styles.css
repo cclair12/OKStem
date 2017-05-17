@@ -30,10 +30,13 @@ body {
      font-weight: 400;
      line-height: 1.8;
      color: #000;
+    padding-top: 70px;
  }
  p {
   font-size: 1.2em;
+  margin: 1.5em 0 1.5em 0;
 }
+/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     p{
     font-size: 1.4em;
@@ -51,6 +54,9 @@ h1,h2,h3{
 }
 h2{
     font-size: 2em;
+}
+h3{
+    margin-bottom: 1.5em;
 }
 .white-bg h2,.gray-bg h2{
     color: #555;
@@ -80,7 +86,7 @@ h2{
      height: 500px;
  }
  .color-bg {
-     background-color: #296;
+     background-color: #296135;
      color: #fff;
  }
  .white-bg {
@@ -111,20 +117,56 @@ h2{
   font-size: 20px;
   line-height: 45px;
 }
+.btn-social:hover{
+    border-color: #c9eb86;
+}
 hr.small {
-    max-width: 200px;
+    max-width: 100px;
     margin-bottom: 2em;
     border-width: 4px;
     border-color: #fff;
 }
 hr.small-black {
-    max-width: 200px;
+    max-width: 100px;
     margin-bottom: 2em;
     border-width: 4px;
-    border-color: #296;
+    border-color: #296135;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    hr.small {
+        max-width: 150px;
+    }
+    hr.small-black {
+    max-width: 150px;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    hr.small {
+        max-width: 200px;
+    }
+    hr.small-black {
+    max-width: 200px;
+    }
 }
 img{
   display: block;
+}
+ul.members-links{
+    font-size: 1.2em;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    ul.members-links{
+    font-size: 1.4em;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    ul.members-links{
+    font-size: 1.7em;
+  }
 }
 
 /*========================
@@ -133,16 +175,25 @@ img{
 
 .navbar {
     background: #fff;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
     border: 0;
     border-radius: 0;
+    border-bottom: 2px solid #555;
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
 }
 .navbar ul{
+  margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+@media (min-width: 1100px){
+    .navbar ul{
   margin-top: 50px;
+ }
 }
 .navbar ul li:hover{
   background: #296135;
@@ -150,10 +201,25 @@ img{
 .navbar-nav  li a:hover {
     color: #fff !important;
 }
-
+button.navbar-toggle{
+    border: none;
+    margin-top: 45px;
+    color: #555;
+}
+.navbar-toggle .icon-bar{
+  width: 40px;
+  height: 7px;
+  border-radius: none;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 5px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: #c9eb86;
+}
 /********* Mobile navbar *********/
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
     .navbar-header {
         float: none;
     }
@@ -176,7 +242,7 @@ img{
     }
     .navbar-nav {
         float: none!important;
-        margin-top: 7.5px;
+        margin: auto;
     }
     .navbar-nav>li {
         float: none;
@@ -193,14 +259,26 @@ img{
 3. Link Styles
 =========================*/
 a{
-  color: #000;
-}
-a:hover{
   color: #fff;
 }
-
+a:hover{
+  color: #c9eb86;
+}
+p a{
+    color: #000;
+}
+p a:hover{
+    color: #80e095;
+}
 ul.nav.navbar-nav.navbar-right li a{
   color: #555;
+}
+a.btn.btn-default.btn-lg{
+    border-bottom: 4px solid #ccc;
+}
+a.btn.btn-default.btn-lg:hover{
+    background-color: #c9eb86;
+    border-color: #819485;
 }
 
 
@@ -215,7 +293,7 @@ header {
                      url('../_images/sample_bg.JPG');
      background-size: cover;
      color: #fff;
-     height: 500px;
+     height: 600px;
     text-align: center;
 }
 header .container {
@@ -225,15 +303,17 @@ header .banner-text{
     font-size: 2.8em;
 }
 header .subheading{
-    font-size: 2em;
+    font-size: 1.7em;
     color: #c9eb86;
+    text-transform: uppercase;
 }
+/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     header .banner-text{
     font-size: 3.5em;
     }
     header .subheading{
-    font-size: 2.7em;
+    font-size: 2.4em;
 }
 }
 
@@ -243,12 +323,12 @@ header .subheading{
     font-size: 4em;
     }
     header .subheading{
-    font-size: 3.2em;
+    font-size: 2.9em;
 }
 }
 figure{
     max-width: 300px;
-    margin: 0 auto;
+    margin: 1.5em auto 1.5em auto;
 }
 img.portrait{
   display: block;
@@ -263,7 +343,7 @@ figcaption.company{
     color: #000;
 }
 .heading-green{
-    color: #296;
+    color: #296135;
     font-weight: 700;
 }
 
