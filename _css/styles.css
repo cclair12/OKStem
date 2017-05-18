@@ -37,13 +37,13 @@ body {
   margin: 1.5em 0 1.5em 0;
 }
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     p{
     font-size: 1.4em;
 }
 }
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     p{
     font-size: 1.7em;
 }
@@ -62,13 +62,13 @@ h3{
     color: #555;
 }
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     h2{
     font-size: 3em;
 }
 }
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     h2{
     font-size: 3.5em;
 }
@@ -133,7 +133,7 @@ hr.small-black {
     border-color: #296135;
 }
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     hr.small {
         max-width: 150px;
     }
@@ -142,7 +142,7 @@ hr.small-black {
     }
 }
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     hr.small {
         max-width: 200px;
     }
@@ -157,13 +157,13 @@ ul.members-links{
     font-size: 1.2em;
 }
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     ul.members-links{
     font-size: 1.4em;
   }
 }
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     ul.members-links{
     font-size: 1.7em;
   }
@@ -286,7 +286,7 @@ a.btn.btn-default.btn-lg:hover{
 /*========================
 4. Page specific styles
 =========================*/
-header {
+.header {
      background: linear-gradient(
                      rgba(20,20,20, .4),
                      rgba(20,20,20, .4)),
@@ -296,33 +296,33 @@ header {
      height: 600px;
     text-align: center;
 }
-header .container {
+.header .container {
   padding-top: 150px;
 }
-header .banner-text{
+.header .banner-text{
     font-size: 2.8em;
 }
-header .subheading{
+.header .subheading{
     font-size: 1.7em;
     color: #c9eb86;
     text-transform: uppercase;
 }
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    header .banner-text{
+@media (min-width: 768px) {
+    .header .banner-text{
     font-size: 3.5em;
     }
-    header .subheading{
+    .header .subheading{
     font-size: 2.4em;
 }
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    header .banner-text{
+@media (min-width: 992px) {
+    .header .banner-text{
     font-size: 4em;
     }
-    header .subheading{
+    .header .subheading{
     font-size: 2.9em;
 }
 }
